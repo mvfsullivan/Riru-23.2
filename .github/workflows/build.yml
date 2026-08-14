@@ -63,6 +63,3 @@ jobs:
           name: riru-v23.2-release
           path: out/riru-v23.2-release.zip
           if-no-files-found: error
-That's why I added `List build outputs`. If that happens, paste that section of the log and I'll adjust the artifact path.
-
-If everything succeeds, GitHub Actions will give you a downloadable **`riru-v23.2-release` artifact containing the flashable ZIP**.
