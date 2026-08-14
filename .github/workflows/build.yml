@@ -56,6 +56,3 @@ jobs:
         with:
           name: riru-v23.2-release
           path: out/riru-v23.2-release.zip
-**One correction from our earlier attempts:** don't use `submodules: recursive` now—the source is fully committed into your repository, so those directories will be checked out normally.
-
-Run it and send me the **first actual error** if it fails.
